@@ -55,8 +55,7 @@ export interface IAuthor {
       avatar: {
         data: {
           attributes: {
-            [x: string]: any;
-            format: {
+            formats: {
               thumbnail: {
                 url: string;
               };

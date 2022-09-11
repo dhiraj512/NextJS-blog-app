@@ -9,6 +9,8 @@ interface IPropType {
 }
 
 const Blogcard = ({ article }: IPropType) => {
+
+
     return (
         <Link href={`/article/${article.attributes.Slug}`}>
             <div className='bg-white border-l-4 border-primary duration-300 border-opacity-50 p-2 rounded-md hover:shadow-lg '>
@@ -27,7 +29,7 @@ const Blogcard = ({ article }: IPropType) => {
                 <div className="flex items-center my-2">
                     <div className="rounded-full overflow-hidden flex items-center justify-center mr-1">
                         <Image
-                            src={`http://localhost:1337${article.attributes.author.data.attributes.avatar.data.attributes.formats.thumbnail.url}`}
+                            src={`https://strapi-blog-backend-dhiraj512.herokuapp.com${article.attributes.author.data.attributes.avatar.data.attributes.formats.thumbnail.url}`}
                             height={20}
                             width={20}
                         />

@@ -42,7 +42,7 @@ const slug = ({ categories, article }: IPropType) => {
                     <div className="flex items-center my-4">
                         <div className="rounded-lg overflow-hidden flex items-center justify-center mr-2">
                             <Image
-                                src={`http://localhost:1337${article.attributes.author.data.attributes.avatar.data.attributes.formats.thumbnail.url}`}
+                                src={`https://strapi-blog-backend-dhiraj512.herokuapp.com${article.attributes.author.data.attributes.avatar.data.attributes.formats.thumbnail.url}`}
                                 height={30}
                                 width={30}
                             />
@@ -60,7 +60,7 @@ const slug = ({ categories, article }: IPropType) => {
                     <div className="text-lg text-gray-600 leading-8">
                         <img
                             className="w-full my-12 mb-6"
-                            src={`http://localhost:1337${article.attributes.Image.data.attributes.url}`}
+                            src={`https://strapi-blog-backend-dhiraj512.herokuapp.com${article.attributes.Image.data.attributes.url}`}
                             alt={article.attributes.Title}
                         />
                         <MDXRemote

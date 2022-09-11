@@ -1,12 +1,8 @@
 {
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "eslint:recommended"
   ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": [],
   "ignorePatterns": [
     "next.config.mjs",
     "postcss.config.js",
