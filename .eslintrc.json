@@ -1,6 +1,11 @@
 {
   "extends": [
+<<<<<<< HEAD
     "eslint:recommended"
+=======
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+>>>>>>> 70f179617bb5cb477d079a48240ac1675c2e3774
   ],
   "plugins": [],
   "ignorePatterns": [
