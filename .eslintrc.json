@@ -2,7 +2,9 @@
   "extends": [
     "eslint:recommended"
   ],
-  "plugins": [],
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "ignorePatterns": [
     "next.config.mjs",
     "postcss.config.js",
